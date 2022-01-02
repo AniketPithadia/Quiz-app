@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz app</title>
+</head>
+<body>
+    <div class="page-wrapper flex">
+        <h1 id="header">Quiz Time!!!</h1>
+        <h2 id="score"></h2>
+
+        <div class="container flex">
+            <div class="content">
+                <h3 id="question"></h3>
+                <form action="">
+                    <div class="form-control flex">
+                        <input type="radio" id="a" name="answer" class="answer" value="">
+                        <label for="a" id="a_text"></label>
+                    </div>
+                    <div class="form-control flex">
+                        <input type="radio" id="b" name="answer" class="answer" value="">
+                        <label for="b" id="b_text"></label>
+                    </div>
+                    <div class="form-control flex">
+                        <input type="radio" id="c" name="answer" class="answer" value="">
+                        <label for="c" id="c_text"></label>
+                    </div>    
+                    <div class="form-control flex">
+                        <input type="radio" id="d" name="answer" class="answer" value="">
+                        <label for="d" id="d_text"></label>
+                    </div>
+                </form>
+            </div>
+            <div class="check flex"></div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
